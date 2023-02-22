@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  color: white;
+  padding: 25px;
+  font-family: Roboto;
+}
+.speedometer-img {
+  width: 80%;
+}
+
+.main-heading-style {
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.speed-heading {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 0px 15px 0px;
+}
+.minmax-paragraph {
+  color: #cbd5e1;
+  font-size: 10px;
+  padding: 0px 0px 15px 0px;
+}
+.increase-button {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.decrease-button {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+@media all and (min-width: 786px) {
+  .speedometer-img {
+    width: 50%;
+  }
+  .speed-heading {
+    font-size: 35px;
+  }
+  .minmax-paragraph {
+    font-size: 15px;
+  }
+  .increase-button {
+    padding: 10px 20px 10px 20px;
+  }
+  .decrease-button {
+    padding: 10px 20px 10px 20px;
+  }
+}
